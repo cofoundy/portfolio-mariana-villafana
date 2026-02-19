@@ -1,0 +1,136 @@
+% Harvard-Format Professional CV — Mariana Villafana Mendoza
+% Compile with: xelatex cv-villafana.tex
+
+\documentclass[10.5pt,letterpaper]{article}
+
+\usepackage[margin=0.55in, top=0.45in, bottom=0.45in]{geometry}
+\usepackage{fontspec}
+\usepackage{fontawesome5}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tabularx}
+
+% --- Fonts (macOS system fonts) ---
+\setmainfont{Times New Roman}
+\setsansfont{Helvetica Neue}
+
+% --- Colors ---
+\definecolor{headrule}{HTML}{2c3e50}
+\definecolor{linkblue}{HTML}{1a5276}
+
+% --- Hyperlinks ---
+\hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=linkblue, pdfborder={0 0 0}}
+
+% --- Section Formatting ---
+\titleformat{\section}
+  {\normalsize\bfseries\centering}
+  {}
+  {0em}
+  {\vspace{-0.4em}\hrulefill\quad}[\quad\hrulefill\vspace{-0.4em}]
+\titlespacing{\section}{0pt}{0.5em}{0.2em}
+
+% --- List Formatting ---
+\setlist[itemize]{nosep, left=0pt, label=\textbullet, itemsep=0pt, topsep=1pt}
+
+% --- No page numbers ---
+\pagestyle{empty}
+
+% --- Custom Commands ---
+\newcommand{\entry}[4]{%
+  \noindent\textbf{#1} \hfill #2 \par\nopagebreak
+  \textit{#3} \hfill \textit{#4} \par\nopagebreak
+}
+
+\begin{document}
+
+% ============================================
+% HEADER
+% ============================================
+\begin{center}
+  {\Large\bfseries Mariana Villafana Mendoza} \\[3pt]
+  \faIcon{map-marker-alt}\enspace Lima -- Valle Sagrado, Per\'u
+  \quad\faIcon{envelope}\enspace \href{mailto:Mar.mvm.88@gmail.com}{Mar.mvm.88@gmail.com}
+  \\[2pt]
+  \faIcon{linkedin}\enspace \href{https://www.linkedin.com/in/mariana-moverpsyc-peru}{linkedin.com/in/mariana-moverpsyc-peru}
+  \quad\faIcon{instagram}\enspace \href{https://www.instagram.com/mar.vime/}{@mar.vime}
+\end{center}
+
+\vspace{-0.4em}
+\noindent\rule{\textwidth}{0.8pt}
+\vspace{-0.6em}
+
+% ============================================
+% EXPERIENCIA PROFESIONAL
+% ============================================
+\section{Experiencia Profesional}
+
+\entry{Independiente --- MoverPsyc}{Lima, Per\'u}{Facilitadora de Intervenciones Psico-Som\'aticas}{2022 --- Presente}
+\begin{itemize}
+  \item Dise\~n\'o e implement\'o programas grupales de regulaci\'on emocional para 20--80 participantes integrando breathwork, tapping y coherencia corporal
+  \item Acompa\~n\'o procesos individuales basados en trauma, fortaleciendo agencia personal y seguridad interna en m\'as de 50 consultantes
+  \item Gestion\'o comunidad digital de 100 participantes y grupo high-ticket de 25 personas con soporte formativo a audiencia de 200K seguidores
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Municipalidad de La Perla}{Callao, Per\'u}{Profesora del Taller ``Danza Sanadora''}{2024}
+\begin{itemize}
+  \item Facilit\'o sesiones comunitarias de reconexi\'on emocional a trav\'es de la danza y expresi\'on corporal para la comunidad local
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Talleres SAMI SARAWI}{Lima, Per\'u}{Profesora de Yoga y Meditaci\'on}{2022 --- 2023}
+\begin{itemize}
+  \item Dirigi\'o c\'irculos para mujeres integrando reconocimiento corporal, meditaci\'on y ciclicidad en sesiones de 3 horas
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Centro de Rehabilitaci\'on Amarse}{Lima, Per\'u}{Consejera en Adicciones / Profesora de Yoga}{2019 --- 2022}
+\begin{itemize}
+  \item Gestion\'o grupos de apoyo psicosocial en rehabilitaci\'on, integrando pr\'acticas corporales terap\'euticas como complemento al tratamiento
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Boticario Mar y Pacha}{Lima, Per\'u}{Emprendedora y Gestora de Eventos}{2021 --- 2023}
+\begin{itemize}
+  \item Fund\'o marca de productos naturales con aromaterapia y organiz\'o m\'as de 15 eventos de reconexi\'on corporal
+\end{itemize}
+\vspace{0.2em}
+
+% ============================================
+% INVESTIGACI\'ON
+% ============================================
+\section{Investigaci\'on en Curso}
+
+\entry{Intervenciones Som\'aticas Grupales}{}{Regulaci\'on Auton\'omica y Locus de Control}{En desarrollo}
+\begin{itemize}
+  \item Investiga el impacto de intervenciones som\'aticas sobre HRV, actividad electrodermal y locus de control en mujeres con antecedentes de trauma
+\end{itemize}
+\vspace{0.2em}
+
+% ============================================
+% FORMACI\'ON
+% ============================================
+\section{Formaci\'on}
+
+\entry{Universidad (en curso)}{}{Psicolog\'ia --- 10\textdegree{} Ciclo (Pr\'acticas preprofesionales)}{En curso}
+\vspace{0.15em}
+\entry{Formaciones Especializadas}{}{Consejer\'ia en Adicciones \textbar{} Intervenci\'on Som\'atica y Regulaci\'on Emocional \textbar{} Profesorado en Yoga}{}
+\vspace{0.15em}
+\entry{Estudios Complementarios}{}{Cosmolog\'ia Andina e Idioma Quechua (en curso) \textbar{} Qu\'imica Cosm\'etica Aplicada}{}
+\vspace{0.2em}
+
+% ============================================
+% HABILIDADES
+% ============================================
+\section{Habilidades}
+
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Cl\'inicas:} & Trauma informado, regulaci\'on auton\'omica, intervenci\'on som\'atica, breathwork, tapping (EFT) \\
+\textbf{Corporales:} & Yoga, pranayama, biodanza, musicoterapia, aromaterapia \\
+\textbf{Facilitaci\'on:} & Grupos de 20--80 personas, comunicaci\'on emp\'atica, liderazgo grupal, interculturalidad \\
+\textbf{Idiomas:} & Espa\~nol (nativo), Ingl\'es (C2), Quechua (en curso) \\
+\end{tabularx}
+
+\end{document}
