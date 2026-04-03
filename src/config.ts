@@ -15,16 +15,17 @@ export const siteConfig = {
   ],
 
   tagline:
-    "Espacios terapéuticos donde el cuerpo y la mente se reorganizan hacia mayor estabilidad y claridad.",
+    "Intervención somática orientada a restaurar seguridad interna y fortalecer la agencia personal.",
 
   social: {
     email: "Mar.mvm.88@gmail.com",
-    linkedin: "https://www.linkedin.com/in/mariana-moverpsyc-peru",
+    linkedin:
+      "https://www.linkedin.com/in/mariana-villafanamendoza-10754627a",
     instagram: "https://www.instagram.com/mar.vime/",
   },
 
   aboutMe:
-    "Soy psicóloga en etapa final de formación, con especialización en trauma y regulación del sistema nervioso. Mi trabajo integra intervención somática, breathwork, tapping (EFT) y prácticas contemplativas orientadas a fortalecer la agencia personal y la sensación de seguridad interna.\n\nHe facilitado grupos presenciales de hasta 80 personas y acompañado procesos individuales y comunitarios en contextos de rehabilitación, desarrollo personal y experiencias inmersivas en entorno natural.\n\nActualmente desarrollo una línea de investigación aplicada centrada en regulación autonómica (HRV y actividad electrodermal) y locus de control en mujeres con antecedentes de trauma.",
+    "Psicóloga con especialización en <strong>trauma y regulación del sistema nervioso</strong>. Mi trabajo integra <strong>intervención somática, breathwork terapéutico, tapping (EFT)</strong> y prácticas de coherencia corporal orientadas a restaurar seguridad interna y fortalecer la agencia personal.<br><br>He facilitado <strong>grupos de hasta 80 personas</strong> y acompañado procesos individuales en contextos de rehabilitación, trabajo con familias y programas institucionales. También facilito <strong>procesos intensivos personalizados en el Valle Sagrado</strong>, en un entorno natural diseñado para acompañamiento terapéutico profundo.<br><br>Actualmente desarrollo <strong>investigación aplicada</strong> en regulación autonómica (HRV y actividad electrodermal) y locus de control en mujeres con antecedentes de trauma.",
 
   skills: [
     "Trauma informado",
@@ -32,43 +33,43 @@ export const siteConfig = {
     "Intervención somática",
     "Breathwork terapéutico",
     "Tapping (EFT)",
-    "Yoga y Pranayama",
-    "Biodanza",
-    "Facilitación grupal",
     "Regulación emocional",
+    "Facilitación grupal",
+    "Yoga y Pranayama",
+    "Coherencia corporal",
     "Interculturalidad",
+    "Trabajo psicosocial",
     "Aromaterapia",
-    "Musicoterapia",
   ],
 
   projects: [
     {
-      name: "Programas de Regulación Emocional Grupal",
+      name: "Acompañamiento Individual Continuo",
       description:
-        "Diseño e implementación de programas grupales de regulación emocional integrando breathwork, tapping y herramientas de coherencia corporal para grupos de 20 a 80 participantes.",
+        "Proceso estructurado orientado a integrar experiencias traumáticas, estabilizar el sistema nervioso y fortalecer la agencia personal. Se organiza en tres etapas: estabilización y reconexión corporal, integración emocional, y consolidación de autonomía. Sesiones de 60-75 minutos, modalidad presencial y virtual.",
       link: "",
-      skills: ["Breathwork", "Tapping", "Facilitación grupal"],
+      skills: ["Trauma", "Regulación", "Somática"],
     },
     {
-      name: "Investigación: HRV y Locus de Control",
+      name: "Intensivos en Entorno Natural",
       description:
-        "Proyecto de investigación aplicada sobre el impacto de intervenciones somáticas grupales en regulación autonómica (HRV y actividad electrodermal) y locus de control en mujeres con antecedentes de trauma.",
+        "Formato de alta dedicación individual (2 a 5 días) en el Valle Sagrado, Perú. Espacios diseñados para regulación profunda y reorganización emocional en entorno natural contenido y confidencial. Incluye sesiones diarias, trabajo somático intensivo y plan de continuidad.",
       link: "",
-      skills: ["Investigación", "HRV", "Regulación autonómica"],
+      skills: ["Valle Sagrado", "Intensivo", "Confidencial"],
     },
     {
-      name: "Taller Danza Sanadora",
+      name: "Programas Grupales",
       description:
-        "Sesiones comunitarias de reconexión emocional a través del cuerpo para la Municipalidad de La Perla, Callao. Integrando danza, expresión corporal y regulación emocional.",
+        "Intervenciones estructuradas orientadas a regulación emocional colectiva, reconexión corporal informada en trauma, desarrollo de agencia personal y cohesión grupal. Grupos presenciales de hasta 80 participantes en contextos institucionales y comunitarios.",
       link: "",
-      skills: ["Danza", "Comunidad", "Regulación emocional"],
+      skills: ["Grupal", "Institucional", "Comunitario"],
     },
     {
-      name: "Boticario Mar y Pacha",
+      name: "Talleres y Bienestar Organizacional",
       description:
-        "Creación y gestión de marca de productos naturales con integración de aromaterapia en procesos de bienestar. Formulación basada en química cosmética aplicada.",
-      link: "https://www.instagram.com/boticario.marypacha/",
-      skills: ["Emprendimiento", "Aromaterapia", "Productos naturales"],
+        "Espacios formativos para equipos y organizaciones sobre regulación del estrés, prevención del burnout, coherencia corporal aplicada al desempeño y herramientas prácticas de autorregulación.",
+      link: "",
+      skills: ["Organizacional", "Burnout", "Estrés"],
     },
   ],
 
@@ -80,6 +81,7 @@ export const siteConfig = {
       bullets: [
         "Diseño e implementación de programas grupales de regulación emocional para 20-80 participantes",
         "Acompañamiento individual basado en trauma integrando breathwork, tapping y coherencia corporal",
+        "Procesos intensivos personalizados en Valle Sagrado en entorno natural terapéutico",
         "Gestión de comunidad digital de 100 participantes y grupo high-ticket de 25 personas",
       ],
     },
@@ -88,7 +90,8 @@ export const siteConfig = {
       title: 'Profesora del Taller "Danza Sanadora"',
       dateRange: "2024",
       bullets: [
-        "Sesiones comunitarias para reconexión emocional a través del cuerpo",
+        "Talleres comunitarios para población adulta mayor, grupos de hasta 60 participantes",
+        "Reconexión emocional a través del cuerpo y expresión corporal",
       ],
     },
     {
@@ -101,22 +104,22 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Sonco Illapa Wasi, Huachipa",
-      title: "Guía de Yoga y Pranayama",
-      dateRange: "2023",
-      bullets: [
-        "Sesiones de inmersión en hielo y temazcal",
-        "Guía de corporalidad, pranayama y respiración consciente",
-      ],
-    },
-    {
       company: "Centro de Rehabilitación Amarse",
       title: "Consejera en Adicciones / Profesora de Yoga",
       dateRange: "2019 — 2022",
       bullets: [
-        "Manejo grupal y acompañamiento psicosocial en rehabilitación",
+        "Programas estructurados de intervención en reconexión corporal y regulación emocional en rehabilitación psicosocial femenina",
+        "Trabajo con equipos multidisciplinarios y familias en procesos de reintegración",
         "Implementación de prácticas corporales como complemento terapéutico",
-        "Sesiones de reconexión corporal y desenvolvimiento emocional",
+      ],
+    },
+    {
+      company: "Sector Salud Ocupacional",
+      title: "Gestión y Producción de Capacitaciones Nacionales",
+      dateRange: "2021 — 2023",
+      bullets: [
+        "Coordinación logística integral de eventos formativos a nivel nacional",
+        "Gestión de proveedores y equipos operativos en capacitaciones de gran escala",
       ],
     },
     {
